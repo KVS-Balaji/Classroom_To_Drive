@@ -39,10 +39,11 @@ To get **Classroom To Drive** up and running on your system, follow these simple
    
 2. **Google Cloud Project Setup**:
    Before running the script, you'll need to create a Google Cloud project and set up authentication credentials. Follow the instructions in the [Google Workspace Developer Guide](https://developers.google.com/docs/api/quickstart/python)
- to create your project and obtain the required credentials.  
+ to create your project and obtain the required credentials.
+   When prompted to download your OAuth client json file, please rename that file to `credentials.json`.   
   Note: You need not do the steps "Configure the sample" and "Run the sample".
 
-3. **Optional: Install LibreOffice (for PDF Conversion, Windows)**:
+4. **Optional: Install LibreOffice (for PDF Conversion, Windows)**:
    If you plan to convert files from Google Classroom into PDF format before uploading to drive, you can download and install LibreOffice by following this [link](https://www.libreoffice.org/download/download-libreoffice/). This step is optional, and you can skip it if you don't need PDF conversion.
 
 ## Usage
